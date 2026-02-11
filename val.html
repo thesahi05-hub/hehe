@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine</title>
+</head>
+<body>
+
+<!-- Envelope -->
+<div id="envelope">
+    <img src="envelope.png" alt="Envelope" id="env"/>
+    <p>To: Nikhil Chanda</p>
+</div>
+
+<!-- Letter -->
+<div id="letter">
+    <div class="letter-window">
+
+        <!-- Love Letter Section -->
+<div id="love-letter">
+
+    <!-- Scroll Box -->
+    <div class="letter-content">
+
+        <p>
+            From the first day we talked, something felt special.
+            You slowly became the best part of my days.
+        </p>
+
+        <p>
+            Every smile of yours makes my world brighter,
+            and every moment with you feels magical.
+        </p>
+
+        <p>
+            I just wanted you to know how much you mean to me,
+            and how grateful I am to have you in my life.
+        </p>
+
+    </div>
+
+    <!-- Cute Checkbox -->
+    <label class="cute-checkbox">
+        <input type="checkbox" id="agreeBox">
+        <span class="heart-check"></span>
+        I agree to the terms & conditions 💕
+    </label>
+
+    <button id="reveal-btn" disabled>soo...</button>
+
+</div>
+
+
+
+        <!-- Proposal Section (Hidden First) -->
+        <div id="proposal" style="display:none;">
+
+            <h1 id="letter-title">Will you be my Valentine?</h1>
+
+            <img src="cat_heart.gif" class="cat" id="letter-cat"/>
+
+            <div class="buttons" id="letter-buttons">
+                <img src="yes.png" class="btn yes-btn" alt="Yes"/>
+                <div class="no-wrapper">
+                    <img src="no.png" class="btn no-btn" alt="No"/>
+                </div>
+            </div>
+
+            <p id="final-text" class="final-text" style="display:none">
+                <strong>Valentine Date:</strong> Brunch @ Sainikpuri. Dress fancy babieboy.  
+            </p>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
