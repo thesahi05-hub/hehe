@@ -4,7 +4,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background-image:url("heart-bg.jpg");
+    background-image:url("https://image2url.com/r2/default/images/1770877054048-7d154a81-4a2e-437b-afe5-1617b8c95656.jpg");
     font-family: 'Playfair Display', serif;
     font-style: italic;
 
@@ -54,7 +54,7 @@ body{
     justify-content: center;
     align-items:center;
     text-align:center;
-    background-image: url("window.png");
+    background-image: url("https://image2url.com/r2/default/images/1770877220924-a5750b10-4efb-42a3-b5fb-0588dbe8a1b3.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
