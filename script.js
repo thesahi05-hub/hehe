@@ -57,7 +57,7 @@ yesBtn.addEventListener("click", () => {
 
     title.textContent = "WE'RE SO GETTING A CAT 💖";
 
-    catImg.src = "cat_dance.gif";
+    catImg.src = "https://image2url.com/r2/default/gifs/1770877549967-9c80a18f-1237-416b-b332-31c44c5b7bfd.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
